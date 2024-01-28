@@ -36,7 +36,7 @@ public final class Calculator implements Calculable {
 
     @Override
     public String result(){
-        return "Результат: комплексное число: " + result.getReal() + "i " + "+ (" + result.getImaginary() + ")";
+        return "Комплексное число: " + result.getReal() + "i " + "+ (" + result.getImaginary() + ")";
     }
 
 

@@ -78,7 +78,7 @@ public class View {
         try {
             result = Integer.parseInt(in.nextLine());
         } catch (NumberFormatException e) {
-            System.err.println("Не является числом. Пожалуйста, введите число.");
+            System.err.println("Не является числом!Введите число.");
             promptInt(message);
         }
         return result;
